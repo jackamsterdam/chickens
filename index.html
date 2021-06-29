@@ -5,9 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chicken</title>
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <h1>Chickens!</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores et non sit alias laudantium asperiores ipsam ratione. Iusto doloremque neque eaque dolore eligendi est repellendus quae ducimus modi praesentium deserunt, nisi eos delectus, impedit eum aspernatur incidunt error earum? Maiores dolorem doloribus quisquam soluta alias molestias voluptatem laboriosam repellendus! Eius.</p>
+   
+<svg viewBox="0 0 600 300">
+    <!-- Symbol-->
+    <symbol id="s-text">
+      <text text-anchor="middle" x="50%" y="50%" dy=".35em">Chickens</text>
+    </symbol>
+    <!-- Duplicate symbols-->
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+  </svg>
 </body>
 </html>
